@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+/* root */
+:root {
+  --primary-color: #0a6ebf;
+  --secondary-color: #fff;
+  /* text-color */
+  --text-blue: #0a6ebf;
+  /* background */
+  --background: #e1effd;
+  /* border */
+  --button-border: #0a6ebf;
+  --li-border: #bddefa;
+  /* hover */
+  --text-hover: ;
+}
+/* general css */
+body {
+  background: var(--primary-color);
+}
+section {
+  height: fit-content;
+}
+li a {
+  font-size: 16px !important;
+  color: var(--text-blue) !important;
+}
+.navbar-brand {
+  background: var(--primary-color);
+  color: var(--secondary-color);
+  transition: all 0.5;
+}
+.navbar-brand:hover {
+  color: var(--secondary-color);
+}
+i {
+  color: var(--primary-color);
+}
+/* 1e style  */
+.style-1 button {
+  background: none;
+  color: var(--text-blue);
+}
+/* 1e style exit  */
