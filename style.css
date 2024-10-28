@@ -85,6 +85,7 @@ i {
 /* 3e style */
 .style-3 .user-area i {
   background: var(--background);
+  border: 3px solid var(--li-border);
   border-radius: 50%;
   padding: 3px;
   height: 40px;
@@ -106,7 +107,9 @@ i {
   right: 0px;
 }
 .style-3 li a:hover,
-.style-3 li a.active {
+.style-3 li a.active,
+.style-4 li a:hover,
+.style-4 li a.active {
   border-bottom: 2px solid var(--button-border);
 }
 /* 3e style exit */
