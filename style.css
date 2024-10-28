@@ -82,3 +82,31 @@ i {
   }
 }
 /* 2e style exit  */
+/* 3e style */
+.style-3 .user-area i {
+  background: var(--background);
+  border-radius: 50%;
+  padding: 3px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  cursor: pointer;
+}
+.user-area span {
+  font-size: 8px;
+  padding: 4px;
+  border-radius: 50%;
+  background: var(--primary-color);
+  color: var(--text-white);
+  position: absolute;
+  top: -6px;
+  right: 0px;
+}
+.style-3 li a:hover,
+.style-3 li a.active {
+  border-bottom: 2px solid var(--button-border);
+}
+/* 3e style exit */
