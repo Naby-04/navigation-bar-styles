@@ -77,9 +77,6 @@ i {
   .style-2 .navbar-brand {
     display: block !important;
   }
-  .user-area i {
-    display: none;
-  }
 }
 /* 2e style exit  */
 /* 3e style */
@@ -114,7 +111,8 @@ i {
 }
 /* 3e style exit */
 /* 7e style */
-.style-7 .user-area span {
+.style-7 .user-area span,
+.style-8 .user-area span {
   color: var(--text-blue);
 }
 .style-7 .user-area {
@@ -122,9 +120,6 @@ i {
 }
 /* 7e style exit */
 /* 8e style */
-.style-7 .user-area span {
-  color: var(--text-blue);
-}
 .style-8 .user-area,
 .style-8 li {
   border-left: 2px solid var(--li-border);
