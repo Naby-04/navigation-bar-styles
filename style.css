@@ -96,7 +96,7 @@ i {
   position: relative;
   cursor: pointer;
 }
-.user-area span {
+.style-3 .user-area span {
   font-size: 8px;
   padding: 4px;
   border-radius: 50%;
@@ -113,3 +113,23 @@ i {
   border-bottom: 2px solid var(--button-border);
 }
 /* 3e style exit */
+/* 7e style */
+.style-7 .user-area span {
+  color: var(--text-blue);
+}
+.style-7 .user-area {
+  border-left: 2px solid var(--li-border);
+}
+/* 7e style exit */
+/* 8e style */
+.style-7 .user-area span {
+  color: var(--text-blue);
+}
+.style-8 .user-area,
+.style-8 li {
+  border-left: 2px solid var(--li-border);
+}
+.style-8 li a:hover {
+  background: var(--background);
+}
+/* 8e style exit */
