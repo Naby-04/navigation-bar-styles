@@ -41,6 +41,18 @@ li a {
 i {
   color: var(--primary-color);
 }
+.btn-active {
+  padding: 10px;
+  background: var(--secondary-color) !important;
+  color: var(--text-blue);
+  font-weight: 700;
+  border-radius: 5px;
+  transition: all 0.2s;
+}
+.btn-active:hover {
+  background: #0b2846 !important;
+  color: var(--text-white);
+}
 /* 1e style  */
 .style-1 button,
 .style-2 button {
@@ -126,5 +138,8 @@ i {
 }
 .style-8 li a:hover {
   background: var(--background);
+}
+pre {
+  display: none;
 }
 /* 8e style exit */

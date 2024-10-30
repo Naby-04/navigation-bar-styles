@@ -29,6 +29,19 @@
       integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
       crossorigin="anonymous"
     ></script>
+    <!-- highlight link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/monokai-sublime.min.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+    <!-- and it's easy to individually load additional languages -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/languages/go.min.js"></script>
+
+    <script>
+      hljs.highlightAll();
+    </script>
     <!-- link css -->
     <link rel="stylesheet" href="style.css" />
     <title>navbar styles with bootstrap</title>
@@ -81,6 +94,63 @@
             </div>
           </div>
         </nav>
+        <div class="w-100 text-end">
+          <button
+            class="btn-active mt-3"
+            onclick="afficherCode();"
+            id="buttonAfiche"
+          >
+            AFFICHER LE CODE
+          </button>
+        </div>
+        <pre class="m-0" id="code" style="display: none">
+          <code class="language-html rounded-3">
+&lt;nav class="navbar navbar-expand-lg bg-light"&gt;
+  &lt;div class="container"&gt;
+    &lt;a class="navbar-brand px-3 rounded-2" href="#"&gt;Naby's&lt;/a&gt;
+    &lt;button
+      class="navbar-toggler"
+      type="button"
+      data-bs-toggle="collapse"
+      data-bs-target="#navbarNav"
+      aria-controls="navbarNav"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    &gt;
+      &lt;span class="navbar-toggler-icon"&gt;&lt;/span&gt;
+    &lt;/button&gt;
+    &lt;div
+      class="collapse navbar-collapse justify-content-between"
+      id="navbarNav"
+    &gt;
+      &lt;ul class="navbar-nav"&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link active ms-3" aria-current="page" href="#"&gt;
+            PRODUCT
+          &lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link ms-3" href="#"&gt;APP&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link ms-3" href="#"&gt;PRICING&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link ms-3" href="#"&gt;TECHNOLOGY&lt;/a&gt;
+        &lt;/li&gt;
+        &lt;li class="nav-item"&gt;
+          &lt;a class="nav-link ms-3" href="#"&gt;CONTACT&lt;/a&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;div class="user-area py-2 ms-3"&gt;
+        &lt;button&gt;SIGN IN&lt;/button&gt;
+        &lt;i class="fa-solid fa-cart-shopping ms-4"&gt;&lt;/i&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/nav&gt;
+  </code>
+</pre>
       </section>
       <!-- 1e style exit -->
       <!-- 2e style -->
@@ -493,72 +563,7 @@
         </nav>
       </section>
       <!-- 9e style exit -->
-      <!-- 10e style -->
-      <!-- 10e style exit -->
-      <!-- 11e style -->
-      <!-- 11e style exit -->
-      <!-- 12e style -->
-      <!-- 12e style exit -->
-      <!-- 13e style -->
-      <!-- 13e style exit -->
-      <!-- 14e style -->
-      <!-- 14e style exit -->
-      <!-- 15e style -->
-      <!-- 15e style exit -->
-      <!-- 16e style -->
-      <!-- 16e style exit -->
-      <!-- 17e style -->
-      <!-- 17e style exit -->
-      <!-- 18e style -->
-      <!-- 18e style exit -->
-      <!-- 19e style -->
-      <!-- 19e style exit -->
-      <!-- 20e style -->
-      <!-- 20e style exit -->
-      <!-- 21e style -->
-      <!-- 21e style exit -->
-      <!-- 22e style -->
-      <!-- 22e style exit -->
-      <!-- 23e style -->
-      <!-- 23e style exit -->
-      <!-- 24e style -->
-      <!-- 24e style exit -->
-      <!-- 25e style -->
-      <!-- 25e style exit -->
-      <!-- 26e style -->
-      <!-- 26e style exit -->
-      <!-- 27e style -->
-      <!-- 27e style exit -->
-      <!-- 28e style -->
-      <!-- 28e style exit -->
-      <!-- 29e style -->
-      <!-- 29e style exit -->
-      <!-- 30e style -->
-      <!-- 30e style exit -->
-      <!-- 31e style -->
-      <!-- 31e style exit -->
-      <!-- 32e style -->
-      <!-- 32e style exit -->
-      <!-- 33e style -->
-      <!-- 33e style exit -->
-      <!-- 34e style -->
-      <!-- 34e style exit -->
-      <!-- 35e style -->
-      <!-- 35e style exit -->
-      <!-- 36e style -->
-      <!-- 36e style exit -->
-      <!-- 37e style -->
-      <!-- 37e style exit -->
-      <!-- 38e style -->
-      <!-- 38e style exit -->
-      <!-- 39e style -->
-      <!-- 39e style exit -->
-      <!-- 40e style -->
-      <!-- 40e style exit -->
-      <!-- 41e style -->
-      <!-- 41e style exit -->
-      <!-- 42e style -->
-      <!-- 42e style exit -->
     </div>
   </body>
+  <script src="main.js"></script>
 </html>
